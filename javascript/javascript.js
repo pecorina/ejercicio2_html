@@ -233,5 +233,6 @@ var superArr =
 ]
 
 var superArr = superArr.forEach(function(element){
-	document.write()
+	document.write("<div>" + "<b>name: </b>" + element.name + "<br>" + "<b>address:</b>" + element.address + "<br>" +
+	"<b>street: </b>" + element.address.street + "<br>" + "<b>suite: </b>" + element.address.suite + "<br>" + "<b>city: </b>" + element.address.city +"<br>" + "<br>" + "</div>")
 });

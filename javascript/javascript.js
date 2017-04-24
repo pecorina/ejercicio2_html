@@ -232,3 +232,6 @@ var superArr =
   }
 ]
 
+var superArr = superArr.forEach(function(element){
+	document.write()
+});
